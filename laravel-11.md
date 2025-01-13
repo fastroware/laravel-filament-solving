@@ -1,6 +1,6 @@
 1. Error saat verification email: https://iamrizwan.me/fix-email-verification-in-filamentphp/
 2. cara query berdasarkan id user
-   ```
+   ```php
    public static function getEloquentQuery(): Builder{
         return parent::getEloquentQuery()->where('user_id',auth()->id());
     }
